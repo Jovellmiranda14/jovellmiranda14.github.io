@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'NewsApp - News Aggregator Web App',
             description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
-            link: 'https://news-aggregator-react-eta.vercel.app/economics',
+            link: 'https://news-aggregator-react-eta.vercel.app',
             github: 'https://github.com/Jovellmiranda14/news-app'
         }
     ];
