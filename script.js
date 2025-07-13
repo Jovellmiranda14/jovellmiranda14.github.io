@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Frontend Development': ['JavaScript', 'React', 'HTML5', 'CSS'],
         'Backend Development': ['PHP', 'Node.js', 'Express', 'Laravel Filament', 'RESTful APIs', 'Axios', 'Git'],
         'Cloud & DevOps': ['AWS'],
-        'Quality Assurance & Methodologies': ['Playwright', 'Selenium', 'Redmine', 'Kanban', 'Agile Methodologies', 'Test Automation', 'Cucumber Gherkin', 'GitHub']
+        'Quality Assurance & Methodologies': ['Playwright', 'Selenium', 'Redmine', 'Kanban', 'Agile Methodologies', 'Test Automation', 'BDD (Behavior-Driven Development)', 'GitHub']
     };
 
     const projectsData = [
