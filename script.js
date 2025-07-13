@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
             github: 'https://github.com/Jovellmiranda14/news-app-test'
         },
         {
+            title: 'News App Version 2 (Static Page)',
+            description: 'Developed a static web page version of a news application, focusing on clean UI/UX design and responsive layout. This project showcases frontend development skills in creating a visually appealing and accessible information display.',
+            github: 'https://github.com/Jovellmiranda14/NewsAppV2'
+        },
+        {
             title: 'Choveterano Services Website',
             description: 'Developed and deployed a responsive, user-centric website for Choveterano Services. Focused on modern frontend development practices to create an accessible and informative online presence, enhancing client engagement and service presentation.',
             link: 'https://choveterano.netlify.app/services'
