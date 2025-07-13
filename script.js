@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsData = [
         {
             title: 'News App Test Automation',
-            description: 'Engineered robust automated test suites for a news aggregator web application using Selenium and Playwright, ensuring comprehensive functionality and optimal user experience across various scenarios. This project focused on implementing efficient and reliable end-to-end testing processes to maintain high software quality.',
+            description: 'Engineered robust automated test suites for a news aggregator web application using Selenium, ensuring comprehensive functionality and optimal user experience across various scenarios. This project focused on implementing efficient and reliable end-to-end testing processes to maintain high software quality.',
             github: 'https://github.com/Jovellmiranda14/news-app-test'
         },
         {
