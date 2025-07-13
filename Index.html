@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jovell Christian Q. Miranda - Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="antialiased">
+    <header
+      id="navbar"
+      class="bg-white/90 backdrop-blur-md sticky top-0 z-30 shadow-sm border-b border-gray-200"
+    >
+      <nav
+        class="container mx-auto px-6 py-5 flex justify-between items-center"
+      >
+        <a href="#" class="text-2xl font-bold tracking-tight text-gray-800"
+          >Jovell Christian Q. Miranda</a
+        >
+        <div class="hidden md:flex space-x-10">
+          <a
+            href="#about"
+            class="nav-link text-gray-600 hover:text-gray-900 font-medium"
+            >About</a
+          >
+          <a
+            href="#experience"
+            class="nav-link text-gray-600 hover:text-gray-900 font-medium"
+            >Experience</a
+          >
+          <a
+            href="#skills"
+            class="nav-link text-gray-600 hover:text-gray-900 font-medium"
+            >Skills</a
+          >
+          <a
+            href="#projects"
+            class="nav-link text-gray-600 hover:text-gray-900 font-medium"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="nav-link text-gray-600 hover:text-gray-900 font-medium"
+            >Contact</a
+          >
+        </div>
+        <div class="md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="text-gray-800 focus:outline-none p-2 rounded-md hover:bg-gray-100 transition-colors"
+          >
+            <svg
+              class="w-7 h-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white shadow-inner border-t border-gray-200"
+      >
+        <a
+          href="#about"
+          class="block py-3 px-6 text-base text-gray-700 hover:bg-gray-50 transition-colors"
+          >About</a
+        >
+        <a
+          href="#experience"
+          class="block py-3 px-6 text-base text-gray-700 hover:bg-gray-50 transition-colors"
+          >Experience</a
+        >
+        <a
+          href="#skills"
+          class="block py-3 px-6 text-base text-gray-700 hover:bg-gray-50 transition-colors"
+          >Skills</a
+        >
+        <a
+          href="#projects"
+          class="block py-3 px-6 text-base text-gray-700 hover:bg-gray-50 transition-colors"
+          >Projects</a
+        >
+        <a
+          href="#contact"
+          class="block py-3 px-6 text-base text-gray-700 hover:bg-gray-50 transition-colors"
+          >Contact</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="py-24 md:py-40 bg-white text-gray-800 relative overflow-hidden"
+      >
+        <div class="container mx-auto text-center px-8 max-w-4xl relative z-10">
+          <h1
+            class="text-5xl md:text-7xl font-bold leading-tight mb-4 text-gray-800"
+          >
+            Jovell Christian Q. Miranda
+          </h1>
+          <p class="mt-4 text-xl md:text-3xl text-gray-600 font-light">
+            Software & Web Developer | Quality Assurance Engineer
+          </p>
+          <p class="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
+            Committed to building reliable, high-quality software and web
+            solutions through innovative development and rigorous quality
+            assurance.
+          </p>
+          <a
+            href="#projects"
+            class="mt-10 inline-block bg-[#7C9D96] text-white font-bold rounded-full py-3 px-10 text-lg hover:bg-[#6a8a83] transition-colors shadow-md hover:shadow-lg"
+            >View My Work</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="py-24 bg-[#FDFBF6]">
+        <div class="container mx-auto px-8">
+          <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">
+            About Me
+          </h2>
+          <div class="max-w-3xl mx-auto text-center text-gray-700 text-lg">
+            <p>
+              As a recent IT graduate, I bring a strong foundation in full-stack
+              software development, robust backend systems, and rigorous Quality
+              Assurance protocols. My expertise spans critical technologies
+              including JavaScript, PHP, Node.js, React, Playwright, Selenium,
+              and cloud platforms like AWS. I am driven by a desire to
+              contribute to high-impact, collaborative development teams,
+              continuously expand my technical proficiencies, and consistently
+              deliver high-quality, reliable code that meets and exceeds
+              expectations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="py-24 bg-white">
+        <div class="container mx-auto px-8">
+          <h2 class="text-4xl font-bold text-center mb-6 text-gray-800">
+            Experience & Education
+          </h2>
+          <p class="text-center text-gray-600 mb-16 max-w-3xl mx-auto text-lg">
+            This timeline highlights my professional experience and academic
+            journey, illustrating my growth and key milestones. Click on any
+            item to reveal more detailed insights into my contributions and
+            acquired skills.
+          </p>
+          <div id="timeline-container" class="relative max-w-3xl mx-auto pt-8">
+            <div
+              class="absolute h-full border-r-2 border-gray-200"
+              style="left: 1.5rem"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-24 bg-[#FDFBF6]">
+        <div class="container mx-auto px-8">
+          <h2 class="text-4xl font-bold text-center mb-6 text-gray-800">
+            Technical Skills
+          </h2>
+          <p class="text-center text-gray-600 mb-16 max-w-3xl mx-auto text-lg">
+            My versatile skill set covers critical domains from frontend
+            interfaces to robust backend systems and advanced quality assurance
+            protocols. The chart below visualizes my core competencies, while
+            the categorized tags provide granular detail on specific
+            technologies.
+          </p>
+          <div
+            class="flex flex-col md:flex-row items-center justify-center gap-16"
+          >
+            <div class="w-full md:w-1/2 flex justify-center">
+              <div class="chart-container">
+                <canvas id="skillsChart"></canvas>
+              </div>
+            </div>
+            <div
+              id="skills-tags-container"
+              class="w-full md:w-1/2 max-w-md"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-24 bg-white">
+        <div class="container mx-auto px-8">
+          <h2 class="text-4xl font-bold text-center mb-6 text-gray-800">
+            Projects
+          </h2>
+          <p class="text-center text-gray-600 mb-16 max-w-3xl mx-auto text-lg">
+            Explore some of my key projects, each demonstrating my ability to
+            apply diverse technical skills to solve real-world challenges.
+            Select a project card to view its full details and access live demos
+            or GitHub repositories.
+          </p>
+          <div
+            id="projects-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 max-w-5xl mx-auto"
+          ></div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-24 bg-[#FDFBF6]">
+        <div class="container mx-auto px-8 text-center">
+          <h2 class="text-4xl font-bold mb-6 text-gray-800">Get In Touch</h2>
+          <p class="text-gray-600 mb-12 max-w-2xl mx-auto text-lg">
+            I am actively seeking new and challenging opportunities where I can
+            apply my skills and grow professionally. Feel free to connect with
+            me through any of the channels below.
+          </p>
+          <div
+            class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-10 text-gray-700 text-lg"
+          >
+            <a
+              href="mailto:jovellmiranda14@gmail.com"
+              class="hover:text-[#7C9D96] transition-colors flex items-center space-x-2"
+            >
+              <span class="text-2xl">&#9993;</span>
+              <span class="hover:text-gray-900 transition-colors"
+                >jovellmiranda14@gmail.com</span
+              >
+            </a>
+            <a
+              href="https://linkedin.com/in/jovell-miranda/"
+              target="_blank"
+              class="hover:text-[#7C9D96] transition-colors flex items-center space-x-2"
+            >
+              <span class="text-2xl">&#128279;</span>
+              <span class="hover:text-gray-900 transition-colors"
+                >LinkedIn Profile</span
+              >
+            </a>
+            <a
+              href="https://github.com/Jovellmiranda14"
+              target="_blank"
+              class="hover:text-[#7C9D96] transition-colors flex items-center space-x-2"
+            >
+              <span class="text-2xl">&#128187;</span>
+              <span class="hover:text-gray-900 transition-colors"
+                >GitHub Profile</span
+              >
+            </a>
+            <span class="flex items-center space-x-2">
+              <span class="text-2xl">&#128222;</span>
+              <span class="text-gray-700">+63 9082170426</span>
+            </span>
+          </div>
+          <p class="text-sm text-gray-500 mt-16">
+            References available upon request.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8 border-t border-gray-700">
+      <div class="container mx-auto px-6 text-center text-sm">
+        <p>
+          &copy; 2025 Jovell Christian Q. Miranda. All rights reserved. Designed
+          and built from scratch.
+        </p>
+      </div>
+    </footer>
+
+    <div id="modal-backdrop" class="modal-backdrop"></div>
+    <div id="project-modal" class="modal w-11/12 md:max-w-3xl rounded-lg p-8">
+      <h3 id="modal-title" class="text-3xl font-bold mb-4 text-gray-800"></h3>
+      <p
+        id="modal-description"
+        class="text-gray-700 leading-relaxed text-base"
+      ></p>
+      <div id="modal-link-container" class="mt-6 flex flex-wrap gap-4"></div>
+      <button
+        id="modal-close-button"
+        class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 transition-colors p-2 rounded-full hover:bg-gray-100"
+      >
+        <svg
+          class="w-7 h-7"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          ></path>
+        </svg>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
