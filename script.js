@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'News App Version 2 (Static Page)',
             description: 'Developed a static web page version of a news application, focusing on clean UI/UX design and responsive layout. This project showcases frontend development skills in creating a visually appealing and accessible information display.',
+            link: 'https://news-app-v2-ruddy.vercel.app/',
             github: 'https://github.com/Jovellmiranda14/NewsAppV2'
         },
         {
