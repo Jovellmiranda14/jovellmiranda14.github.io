@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Choveterano Services Website',
             description: 'Developed and deployed a responsive, user-centric website for Choveterano Services. Focused on modern frontend development practices to create an accessible and informative online presence, enhancing client engagement and service presentation.',
-            link: 'https://choveterano.netlify.app/services',
+            link: 'https://choveterano.netlify.app/home',
             github: 'https://github.com/Jovellmiranda14/CHOVETERANO'
         },
         {
