@@ -44,6 +44,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const projectsData = [
         {
+            title: 'NewsApp - News Aggregator Web App',
+            description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
+            link: 'https://news-aggregator-react-eta.vercel.app',
+            github: 'https://github.com/Jovellmiranda14/news-app'
+        },
+        {
             title: 'News App Test Automation',
             description: 'Engineered robust automated test suites for a news aggregator web application using Selenium, ensuring comprehensive functionality and optimal user experience across various scenarios. This project focused on implementing efficient and reliable end-to-end testing processes to maintain high software quality.',
             github: 'https://github.com/Jovellmiranda14/news-app-test'
@@ -53,12 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Developed a static web page version of a news application, focusing on clean UI/UX design and responsive layout. This project showcases frontend development skills in creating a visually appealing and accessible information display.',
             link: 'https://news-app-v2-ruddy.vercel.app/',
             github: 'https://github.com/Jovellmiranda14/NewsAppV2'
-        },
-        {
-            title: 'NewsApp - News Aggregator Web App',
-            description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
-            link: 'https://news-aggregator-react-eta.vercel.app',
-            github: 'https://github.com/Jovellmiranda14/news-app'
         },
         {
             title: 'Choveterano Services Website',
