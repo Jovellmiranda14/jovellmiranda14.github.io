@@ -75,6 +75,12 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
             link: 'https://news-aggregator-react-eta.vercel.app',
             github: 'https://github.com/Jovellmiranda14/news-app'
+        },
+        {
+            title: 'Multi-Bot Minecraft System',
+            description: 'Developed a Multi-Bot Minecraft System using Mineflayer, enabling automated gameplay and server management. This project showcases advanced programming skills in creating bots that can perform various tasks within the Minecraft environment, enhancing gameplay efficiency and server interaction.',
+            link: 'https://bot-wq83.onrender.com/',
+            github: 'https://github.com/Jovellmiranda14/bot'
         }
     ];
 
