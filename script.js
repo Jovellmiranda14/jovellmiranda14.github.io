@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             github: 'https://github.com/Jovellmiranda14/news-app'
         },
         {
-            title: 'Multi-Bot Minecraft System',
+            title: 'Multi-Bot Minecraft System using Mineflayer',
             description: 'Developed a Multi-Bot Minecraft System using Mineflayer, enabling automated gameplay and server management. This project showcases advanced programming skills in creating bots that can perform various tasks within the Minecraft environment, enhancing gameplay efficiency and server interaction.',
             link: 'https://bot-wq83.onrender.com/',
             github: 'https://github.com/Jovellmiranda14/bot'
