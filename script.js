@@ -55,6 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
             github: 'https://github.com/Jovellmiranda14/NewsAppV2'
         },
         {
+            title: 'NewsApp - News Aggregator Web App',
+            description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
+            link: 'https://news-aggregator-react-eta.vercel.app',
+            github: 'https://github.com/Jovellmiranda14/news-app'
+        },
+        {
             title: 'Choveterano Services Website',
             description: 'Developed and deployed a responsive, user-centric website for Choveterano Services. Focused on modern frontend development practices to create an accessible and informative online presence, enhancing client engagement and service presentation.',
             link: 'https://choveterano.netlify.app/home',
@@ -69,12 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'UA-TRAX - Web-Based Ticketing System - Automation Testing',
             description: 'Led the full-stack development of UA-TRAX, a comprehensive Laravel Filament-based ticketing system. Implemented critical features including dynamic role-based access control, advanced analytics dashboards, and real-time email notifications. This system significantly streamlined issue tracking and project planning through custom metrics and intuitive UI.',
             github: 'https://github.com/Jovellmiranda14/UA-Trax/tree/playwright/tests/playwright',
-        },
-        {
-            title: 'NewsApp - News Aggregator Web App',
-            description: 'Designed and developed a modern news aggregator web application, integrating React for a dynamic frontend and Node.js/Express for a scalable backend. Implemented efficient RESTful APIs and utilized Axios for seamless HTTP requests, alongside robust search and filter functionalities for enhanced content discovery.',
-            link: 'https://news-aggregator-react-eta.vercel.app',
-            github: 'https://github.com/Jovellmiranda14/news-app'
         },
         {
             title: 'Multi-Bot Minecraft System using Mineflayer',
