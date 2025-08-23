@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             company: 'Codebility',
             date: 'June 2025 - Present',
             description: [
-                'Assisted in QA testing for a live mobile application using a Kanban workflow, ensuring software reliability.',
+                'Assisted in QA testing for a live mobile application  and web application, using a Kanban workflow, ensuring software reliability.',
                 'Contributed to clear and accurate bug tickets by documenting identified defects, facilitating efficient resolution.',
                 'Participated in weekly team huddles to stay informed on project status and discuss QA progress, fostering agile collaboration.'
             ]
