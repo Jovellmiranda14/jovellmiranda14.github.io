@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Frontend Development': ['JavaScript', 'React', 'HTML5', 'CSS'],
         'Backend Development': ['PHP', 'Node.js', 'Express', 'Laravel Filament', 'RESTful APIs', 'Axios', 'Git'],
         'Cloud & DevOps': ['AWS'],
-        'Quality Assurance & Methodologies': ['Playwright', 'Selenium', 'Redmine', 'Kanban', 'Agile Methodologies', 'Test Automation', 'BDD (Behavior-Driven Development)', 'GitHub']
+        'Quality Assurance & Methodologies': ['Playwright', 'Kanban', 'Agile Methodologies', 'Test Automation', 'GitHub']
     };
 
     const projectsData = [
@@ -81,6 +81,12 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Developed a Multi-Bot Minecraft System using Mineflayer, enabling automated gameplay and server management. This project showcases advanced programming skills in creating bots that can perform various tasks within the Minecraft environment, enhancing gameplay efficiency and server interaction.',
             link: 'https://bot-wq83.onrender.com/',
             github: 'https://github.com/Jovellmiranda14/mc-bot-v3'
+        },
+
+        {
+            title: 'FinEase - Personal Finance Management App',
+            description: 'Developed FinEase, a personal finance management application designed to help users track expenses, set budgets, and manage finances effectively. The app features a user-friendly interface built with React, ensuring a seamless experience for users to monitor their financial health.',
+            github: 'https://github.com/Jovellmiranda14/FinEase'
         }
     ];
 
