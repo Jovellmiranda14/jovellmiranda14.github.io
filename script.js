@@ -50,11 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
             github: 'https://github.com/Jovellmiranda14/news-app'
         },
         {
-            title: 'News App Test Automation',
-            description: 'Engineered robust automated test suites for a news aggregator web application using Selenium, ensuring comprehensive functionality and optimal user experience across various scenarios. This project focused on implementing efficient and reliable end-to-end testing processes to maintain high software quality.',
-            github: 'https://github.com/Jovellmiranda14/news-app-test'
-        },
-        {
             title: 'News App Version 2 (Static Page)',
             description: 'Developed a static web page version of a news application, focusing on clean UI/UX design and responsive layout. This project showcases frontend development skills in creating a visually appealing and accessible information display.',
             link: 'https://news-app-v2-ruddy.vercel.app/',
@@ -70,11 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'UA-TRAX - Web-Based Ticketing System',
             description: 'Led the full-stack development of UA-TRAX, a comprehensive Laravel Filament-based ticketing system. Implemented critical features including dynamic role-based access control, advanced analytics dashboards, and real-time email notifications. This system significantly streamlined issue tracking and project planning through custom metrics and intuitive UI.',
             github: 'https://github.com/Jovellmiranda14/UA-TRAX'
-        },
-        {
-            title: 'UA-TRAX - Web-Based Ticketing System - Automation Testing',
-            description: 'Led the full-stack development of UA-TRAX, a comprehensive Laravel Filament-based ticketing system. Implemented critical features including dynamic role-based access control, advanced analytics dashboards, and real-time email notifications. This system significantly streamlined issue tracking and project planning through custom metrics and intuitive UI.',
-            github: 'https://github.com/Jovellmiranda14/UA-Trax/tree/playwright/tests/playwright',
         },
         {
             title: 'Multi-Bot Minecraft System using Mineflayer',
